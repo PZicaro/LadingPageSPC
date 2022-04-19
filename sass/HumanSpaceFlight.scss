@@ -1,0 +1,42 @@
+
+.Human-main{
+    @include mains();
+    height: 85vh;
+    .mid{
+      margin-bottom: 50px;
+    }
+    button{
+      width: 150px;
+      height: 60px;
+    }
+    }
+    .Human-bg {
+        @include backgrounds();
+        background-image: url(../humanFlight/01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .Human-main{
+     display: grid;
+     justify-content: center;
+     P{
+        
+         display: flex;
+         justify-content: center;
+         
+     }
+     
+      h1 {
+        display: flex;
+      justify-content: center;
+      font-size: 120px;
+
+  
+    }
+     
+    }
+   
+    
+       
+     

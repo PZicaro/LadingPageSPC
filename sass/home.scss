@@ -1,0 +1,104 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+    
+    
+    color: white;
+  }
+  
+  
+  header{
+    display: flex;
+    padding-top: 30px;
+  }
+  
+  #header-nav{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+  }
+  a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: #b9b9b9;
+    }
+  }
+  .first-bg {
+    @include backgrounds();
+    background-image: url(../home/01.jpg);
+  
+  } 
+  .first-main{
+    @include mains();
+    height: 85vh;
+    .mid{
+      margin-bottom: 50px;
+    }
+    button{
+      width: 150px;
+      height: 60px;
+    }
+    }
+  
+    .second-bg {
+      @include backgrounds();
+      background-image: url(../home/03.jpg);
+    
+    } 
+    .second-main{
+      @include mains();
+      .mid{
+        margin-bottom: 50px;
+      }
+      button{
+        width: 150px;
+        height: 60px;
+      }
+      }
+      .third-bg {
+        @include backgrounds();
+        background-image: url(../home/02.gif);
+      
+      } 
+      .third-main{
+        @include mains();
+        .mid{
+          margin-bottom: 50px;
+        }
+        button{
+          width: 150px;
+          height: 60px;
+          
+        }
+        }
+        .fourth-bg {
+          @include backgrounds();
+          background-image: url(../home/04.jpg);
+        } 
+        .fourth-main{
+          @include mains();
+          .mid{
+            margin-bottom: 50px;
+          }
+          button{
+            width: 150px;
+            height: 60px;
+          }
+          }
+          footer{
+            background-color: black;
+            height: 100px;
+  
+            #footer-nav{
+             display: flex;
+             justify-content: center;
+             padding: 30px 15px 15px 15px;
+             font-size: 12px;
+  
+            }
+          }
+            
+            
+          

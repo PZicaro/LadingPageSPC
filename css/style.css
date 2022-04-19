@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+header {
+  display: flex;
+  padding-top: 30px;
+}
+
+#header-nav {
+  display: flex;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #b9b9b9;
+}
+
+.first-bg {
+  height: 100Vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../home/01.jpg);
+}
+
+.first-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 85vh;
+}
+.first-main .mid {
+  margin-bottom: 50px;
+}
+.first-main button {
+  width: 150px;
+  height: 60px;
+}
+
+.second-bg {
+  height: 100Vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../home/03.jpg);
+}
+
+.second-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.second-main .mid {
+  margin-bottom: 50px;
+}
+.second-main button {
+  width: 150px;
+  height: 60px;
+}
+
+.third-bg {
+  height: 100Vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../home/02.gif);
+}
+
+.third-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.third-main .mid {
+  margin-bottom: 50px;
+}
+.third-main button {
+  width: 150px;
+  height: 60px;
+}
+
+.fourth-bg {
+  height: 100Vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../home/04.jpg);
+}
+
+.fourth-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.fourth-main .mid {
+  margin-bottom: 50px;
+}
+.fourth-main button {
+  width: 150px;
+  height: 60px;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+footer #footer-nav {
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px 15px 15px;
+  font-size: 12px;
+}
+
+.Human-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 85vh;
+}
+.Human-main .mid {
+  margin-bottom: 50px;
+}
+.Human-main button {
+  width: 150px;
+  height: 60px;
+}
+
+.Human-bg {
+  height: 100Vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../humanFlight/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Human-main {
+  display: grid;
+  justify-content: center;
+}
+.Human-main P {
+  display: flex;
+  justify-content: center;
+}
+.Human-main h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
